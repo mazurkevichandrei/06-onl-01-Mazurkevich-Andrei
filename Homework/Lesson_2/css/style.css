@@ -1,0 +1,13 @@
+@import url("../css/container.css");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
