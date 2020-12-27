@@ -9,5 +9,29 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 15px;
+    /* padding: 15px; */
+}
+
+h2 {
+    font-size: 32px;
+    color: #212121;
+    margin-top: 85px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 14px;
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 30px;
+    font-family: 'Open Sans';
 }

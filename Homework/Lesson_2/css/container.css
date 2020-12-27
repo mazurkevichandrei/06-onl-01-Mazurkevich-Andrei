@@ -9,8 +9,9 @@
     text-align: center;
     max-width: 1170px;
     margin:  0 auto;
+    padding: 15px;
 }
-.awesome-title {
+/* .awesome-title {
     font-size: 32px;
     color: #212121;
     margin-top: 85px;
@@ -18,22 +19,24 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: normal;
-}
+} */
 .awesome-line {
     width: 64px;
     height: 2px;
     background-color: #D98943;
+    margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 30px;
+
 }
-.awesome-subtitle {
+/* .awesome-subtitle {
     font-size: 14px;
     color: #86878B;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-}
+} */
 .awesome-card {
     display: flex;
     flex-direction: row;
@@ -61,13 +64,13 @@
     border: 1px solid #D98943;
     border-radius: 50%;
 }
-.awesome-card__item-title {
+/* .awesome-card__item-title {
     font-size: 20px;
     color: #333333;
     margin-top: 30px;
 
     font-family: 'Open Sans';
-}
+} */
 .awesome-card__item-info {
     font-size: 14px;
     color: #000000;
