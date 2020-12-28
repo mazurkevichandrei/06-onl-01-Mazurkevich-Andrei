@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* SECTIONS */
 .awesome{
     display: flex;
     flex-direction: column;
@@ -17,6 +19,8 @@
     align-items: center;
     background-color: #E5E5E5;
 }
+
+/* CONTAINER */
 .container {
     display: flex;
     flex-direction: column;
@@ -28,6 +32,7 @@
     padding: 15px;
 }
 
+/* FONTS */
 h2 {
     font-size: 32px;
     color: #212121;

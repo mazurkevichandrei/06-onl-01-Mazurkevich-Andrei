@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
-.awesome-title{
-    margin-top: 85px;
-}
 .awesome-line {
     width: 64px;
     height: 2px;
@@ -40,6 +37,10 @@
     border: 1px solid #D98943;
     margin-bottom: 30px;
     border-radius: 50%;
+}
+/* FONTS */
+.awesome-title{
+    margin-top: 85px;
 }
 
 .awesome-card__item-info {
