@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 15px;
-}
 .awesome-title{
     margin-top: 85px;
 }

@@ -1,10 +1,9 @@
-@import url("../css/container.css");
+@import url("../css/awesome.css");
 @import url("../css/pricing.css");
 *{
     margin: 0px;
     padding: 0px;
 }
-
 .awesome{
     display: flex;
     flex-direction: column;
@@ -17,6 +16,16 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #E5E5E5;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 h2 {
