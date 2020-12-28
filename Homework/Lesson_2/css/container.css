@@ -11,7 +11,9 @@
     margin: 0 auto;
     padding: 15px;
 }
-
+.awesome-title{
+    margin-top: 85px;
+}
 .awesome-line {
     width: 64px;
     height: 2px;
