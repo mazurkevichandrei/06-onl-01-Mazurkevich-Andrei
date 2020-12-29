@@ -17,7 +17,6 @@
     font-family:'Open Sans';
     font-size: 14px;
     color: #86878B;
-    margin-bottom: 2px;
 }
 .price-title,
 .price-cost,
@@ -28,7 +27,7 @@
     padding-top: 15px;
     padding-bottom: 8px;
     margin-bottom: 1px;
-    font-family:'Open Sans';
+    /* font-family:'Open Sans'; */
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
@@ -46,9 +45,9 @@
 .price-info-selected{
     padding-top: 17px;
     padding-bottom: 14px;
-    margin-bottom: 4px;
+    /* margin-bottom: 4px;
     font-family:'Open Sans';
-    font-size: 14px;
+    font-size: 14px; */
     font-weight: 600;
     color: rgba(255, 255, 255, 0.5);
 }
