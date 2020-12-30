@@ -22,15 +22,14 @@
 .price-cost,
 .price-info{
     background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
 }
 .price-title{
     padding-top: 15px;
     padding-bottom: 8px;
     margin-bottom: 1px;
-    /* font-family:'Open Sans'; */
     font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
 }
 .price-cost{
     padding-top: 26px;
@@ -38,16 +37,11 @@
     margin-bottom: 2px;
     font-family: 'Raleway';
     font-size: 35px;
-    font-weight: bold;
-    color: #ffffff;
 }
 .price-info,
 .price-info-selected{
     padding-top: 17px;
     padding-bottom: 14px;
-    /* margin-bottom: 4px;
-    font-family:'Open Sans';
-    font-size: 14px; */
     font-weight: 600;
     color: rgba(255, 255, 255, 0.5);
 }
