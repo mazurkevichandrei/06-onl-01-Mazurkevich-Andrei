@@ -1,7 +1,7 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
-@import url("../css/feedback.css");
-@import url("../css/design.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
 *{
     margin: 0px;
     padding: 0px;
@@ -22,10 +22,10 @@
     align-items: center;
     background-color: #E5E5E5;
 }
-.feedback{
+.customers{
 
 }
-.design{
+.axure{
     background: url(../img/background1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +33,7 @@
     position: relative;
     padding-bottom: 50px;
 }
-.design::after{
+.axure::after{
     content: "";
     width: 100%;
     height: 100%;
