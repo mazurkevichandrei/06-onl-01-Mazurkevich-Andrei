@@ -2,25 +2,6 @@
     position: relative;
     z-index: 2;
 }
-.design{
-    background: url(../img/background1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 50px;
-}
-.design::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
 /* LINK */
 .design-button{
     text-decoration: none;
