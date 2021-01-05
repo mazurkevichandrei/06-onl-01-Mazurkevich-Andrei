@@ -3,7 +3,7 @@
     z-index: 2;
 }
 /* LINK */
-.design-button{
+.axure-button{
     text-decoration: none;
     font-family: 'Open Sans';
     font-size: 15px;
@@ -13,16 +13,16 @@
     border: 1px solid #ffffff;
     transition: all linear 0.3s;
 }
-.design-button:hover{
+.axure-button:hover{
     background-color: #ffffff;
     color: black;   
 }
 /* FONTS */
-.design-title{
+.axure-title{
     margin-top: 58px;
     color: #ffffff;
 }
-.design-title::after{
+.axure-title::after{
     content: "";
     width: 64px;
     height: 2px;
@@ -32,7 +32,7 @@
     margin-top: 25px;
     margin-bottom: 30px;
 }
-.design-subtitle{
+.axure-subtitle{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
     padding-bottom: 58px;
