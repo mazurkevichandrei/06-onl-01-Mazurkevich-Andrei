@@ -53,6 +53,8 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 15px;
+    position: relative;
+    z-index: 2;
 
     /* border: 2px solid black; */
 }
