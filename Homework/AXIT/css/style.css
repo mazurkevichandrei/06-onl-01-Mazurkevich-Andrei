@@ -2,9 +2,11 @@
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
+@import url("../css/head.css");
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* SECTIONS */
