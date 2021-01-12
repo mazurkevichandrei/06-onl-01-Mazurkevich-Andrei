@@ -1,0 +1,25 @@
+footer{
+    background-color: #000;
+}
+.footer-media-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.footer_media_icon
+{
+    font-size: 20px;
+    color: #F5F5F5;
+    padding: 10px 10px;
+}
+
+/* LINK */
+.footer-link{
+    margin: 0 5px;
+}
+
+
+

@@ -18,13 +18,13 @@
     justify-content: space-around;
 }
 
-i{
-    margin: 20px 15px;
+.fab{
+    padding: 20px 15px;
     font-size: 35px;
     color: #c7c5c5;
     transition: color linear .5s;
 }
-i:hover{
+.fab:hover{
     color: #6273c4;
 }
 
