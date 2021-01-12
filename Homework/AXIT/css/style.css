@@ -6,6 +6,11 @@
 @import url("../css/customers.css");
 @import url("../css/axure.css");
 @import url("../css/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -74,7 +79,9 @@ h2 {
     text-transform: uppercase;
 }
 /* Line after page title */
-h2::after{
+h2.awesome-title::after,
+h2.pricing-title::after,
+h2.feedback-title::after{
     content: "";
     width: 64px;
     height: 2px;
