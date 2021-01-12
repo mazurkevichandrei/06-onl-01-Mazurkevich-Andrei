@@ -4,18 +4,19 @@
 .media{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-between;   
 }
 .media-description{
     display: flex;
     flex-direction: column;
-    margin: 0px 25px;
+    margin: 0px 45px;
 }
 
 .media-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 15px;
 }
 /* ICONS */
 .fab{
