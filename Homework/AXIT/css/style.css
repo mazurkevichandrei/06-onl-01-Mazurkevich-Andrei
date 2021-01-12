@@ -1,10 +1,10 @@
-@import url("../css/awesome.css");
+@import url("../css/head.css");
 @import url("../css/axit.css");
+@import url("../css/media.css");
+@import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
-@import url("../css/head.css");
-@import url("../css/media.css");
 @import url("../css/footer.css");
 *{
     margin: 0px;
@@ -84,7 +84,12 @@ h2::after{
     margin-top: 25px;
     margin-bottom: 30px;
 }
-
+h3 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
 h4 {
     font-size: 14px;
     color: #86878B;
@@ -96,10 +101,4 @@ h5{
     font-family: 'Open Sans';
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
-}
-h3 {
-    font-size: 20px;
-    color: #333333;
-    font-weight: bold;
-    font-family: 'Open Sans';
 }

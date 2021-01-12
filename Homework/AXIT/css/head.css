@@ -4,6 +4,7 @@
 .head{
     display: flex;
     justify-content: space-between;
+    align-content: space-around;
     flex-wrap: wrap;
 }
 /* LOGO */

@@ -20,6 +20,9 @@ footer{
 .footer-link{
     margin: 0 5px;
 }
-
+/* FONT */
+.footer-text{
+    padding-top: 4px;
+}
 
 

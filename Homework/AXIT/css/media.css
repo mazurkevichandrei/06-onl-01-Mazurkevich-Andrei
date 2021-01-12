@@ -19,7 +19,7 @@
 }
 
 .fab{
-    padding: 20px 15px;
+    padding: 15px 15px;
     font-size: 35px;
     color: #c7c5c5;
     transition: color linear .5s;
@@ -30,7 +30,7 @@
 
 /* LINK */
 .media-link{
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 /* FONTS */
