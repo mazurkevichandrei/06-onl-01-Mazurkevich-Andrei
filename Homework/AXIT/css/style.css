@@ -1,8 +1,10 @@
 @import url("../css/awesome.css");
+@import url("../css/axit.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
 @import url("../css/head.css");
+@import url("../css/media.css");
 *{
     margin: 0px;
     padding: 0px;
