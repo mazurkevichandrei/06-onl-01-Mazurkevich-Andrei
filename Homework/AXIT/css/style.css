@@ -5,6 +5,7 @@
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
+@import url("../css/contact.css");
 @import url("../css/footer.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -81,7 +82,8 @@ h2 {
 /* Line after page title */
 h2.awesome-title::after,
 h2.pricing-title::after,
-h2.feedback-title::after{
+h2.feedback-title::after,
+h2.contact-title::after{
     content: "";
     width: 64px;
     height: 2px;
