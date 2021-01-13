@@ -5,7 +5,6 @@
     background-size: cover;
     position: relative;
     z-index: 1;
-    padding-bottom: 85px;
 }
 .axitpage:after{
     content: "";
@@ -22,8 +21,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
+    align-items: flex-start;
+    padding: 110px 0;
 }
+
+/* BOX WITH TEXT CONTENT */
+.axit__content{
+    max-width: 570px;
+    text-align: left;
+    margin: 0 45px; 
+    padding-bottom: 45px;  
+}
+/* FORM */
 .axit-form{
     display: flex;
     flex-direction: column;
@@ -32,15 +41,9 @@
     height: 370px;
     border-radius: 8px;
     background-color: #ffffff;
-    margin: 0 40px;
-    margin-top: 25px;
+    margin: 0 45px;
 }
-/* BOX WITH TEXT CONTENT */
-.axit-content{
-    max-width: 570px;
-    text-align: left;
-    margin: 45px 45px;   
-}
+
 /* LINK */
 .axit-button{
     text-decoration: none;
@@ -65,7 +68,6 @@
     line-height: 20px;
     color: #ffffff;
     background-color: #EC7979;
-    /* border: 2px solid #EC7979; */
     border-radius: 0 0 8px 8px;
     padding: 20px 0;
     transition: all linear 0.3s;
@@ -81,7 +83,6 @@
     font-weight: normal;
     line-height: 70px;
     color: #ffffff;
-    margin-top: 40px;
     margin-bottom: 32px;
 }
 
@@ -102,7 +103,7 @@
     margin-top: 42px;
     margin-bottom: 39px;
 }
-p.axit-content__text{
+p.axit-text{
     max-width: 250px;
     font-family: 'Raleway';
     font-size: 15px;
