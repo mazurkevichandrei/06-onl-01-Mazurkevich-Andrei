@@ -25,7 +25,7 @@
     padding: 15px 15px;
     font-size: 35px;
     color: #c7c5c5;
-    transition: color linear .5s;
+    transition: color linear .3s;
 }
 .fab:hover{
     color: #6273c4;
