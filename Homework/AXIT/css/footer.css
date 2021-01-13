@@ -1,5 +1,8 @@
-footer{
+.foot{
     background-color: #000;
+}
+.foot-box{
+    padding: 25px 0;
 }
 .footer-media-box{
     display: flex;
@@ -17,10 +20,6 @@ footer{
     margin: 0 5px;
 }
 
-/* LINK */
-/* .footer-link{
-    margin: 0 5px;
-} */
 /* FONT */
 .footer-text{
     padding-top: 4px;
