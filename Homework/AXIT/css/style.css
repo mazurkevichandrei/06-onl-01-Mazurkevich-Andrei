@@ -19,13 +19,7 @@
 }
 
 /* SECTIONS */
-.awesome{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 94px;
-}
+
 .pricing{
     /* display: flex;
     flex-direction: column;
