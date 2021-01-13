@@ -1,12 +1,22 @@
+.pricing{
+    align-items: center;
+    background-color: #E5E5E5;
+}
+.pricing-box{
+    padding: 65px 0;
+}
+/* CARDS_AREA */
 .pricing-card__box{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 62px;
+    margin: 0 -30px;
+    margin-top: 60px;
 }
+/* CARDS */
 .pricing-card{
     width: 340px;
-    margin-bottom: 67px;
+    margin: 20px 30px;
 }
 .pricing-card__item{
     padding-top: 10px;
@@ -48,12 +58,10 @@
 .price-info-selected{
     background-color: #D98943;
 }
-
+/* CARDS_END */
 
 /* FONTS */
 .pricing-title{
-    padding-top: 65px;
-    /* padding-top: 45px; */
 
 }
 .price-currency{

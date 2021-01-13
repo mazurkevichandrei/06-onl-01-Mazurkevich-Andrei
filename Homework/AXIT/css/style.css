@@ -20,16 +20,6 @@
 
 /* SECTIONS */
 
-.pricing{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
-    align-items: center;
-    background-color: #E5E5E5;
-}
-.customers{
-
-}
 .axure{
     background: url(../img/background1.png);
     background-repeat: no-repeat;
