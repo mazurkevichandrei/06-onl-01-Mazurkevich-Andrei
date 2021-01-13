@@ -1,7 +1,7 @@
 .socialmedia{
     background-color: #F8EFEF;
 }
-.media{
+.socialmedia-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

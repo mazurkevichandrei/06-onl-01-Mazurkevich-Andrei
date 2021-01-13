@@ -1,5 +1,5 @@
-.contact{
-    padding-bottom: 45px;
+.contact-box{
+    padding: 65px 0;
 }
 
 /* LINK */
@@ -21,8 +21,8 @@
     }
 /* FONTS */
 .contact-title{
-    margin-top: 65px;
+    
 }
 .contact-subtitle{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }

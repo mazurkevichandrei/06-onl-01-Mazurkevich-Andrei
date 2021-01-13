@@ -1,7 +1,7 @@
 .header{
     background-color: #000000;
 }
-.head{
+.header-box{
     display: flex;
     justify-content: space-between;
     align-content: space-around;
