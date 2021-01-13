@@ -8,18 +8,19 @@ footer{
     max-width: 350px;
     margin: 0 auto;
 }
-
-.footer_media_icon
-{
+/* ICONS */
+.footer_media_icon{
+    text-decoration: none;
     font-size: 20px;
     color: #F5F5F5;
     padding: 10px 10px;
+    margin: 0 5px;
 }
 
 /* LINK */
-.footer-link{
+/* .footer-link{
     margin: 0 5px;
-}
+} */
 /* FONT */
 .footer-text{
     padding-top: 4px;

@@ -18,8 +18,10 @@
     justify-content: space-around;
     margin: 0 15px;
 }
-/* ICONS */
+/* ICONS-LINK */
 .fab{
+    text-decoration: none;
+    margin: 5px 10px;
     padding: 15px 15px;
     font-size: 35px;
     color: #c7c5c5;
@@ -30,10 +32,10 @@
 }
 
 /* LINK */
-.media-link{
+/* .media-link{
     text-decoration: none;
     margin: 5px 10px;
-}
+} */
 
 /* FONTS */
 .media-title{
