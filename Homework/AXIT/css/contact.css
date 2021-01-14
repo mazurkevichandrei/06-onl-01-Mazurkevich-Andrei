@@ -53,7 +53,7 @@
     font-weight: 400;
     line-height: 19px;
     color: #BDBDBD;
-    padding: 3px 5px;
+    padding: 3px 0px;
     transition: all linear .3s;
 
     resize: none;
@@ -65,7 +65,7 @@
     outline: none;
     background-color: #f7f9fa;
     color: #000000;
-    padding-left: 7px;
+    padding-left: 3px;
 }
 
 /* FORM_BUTTON */
