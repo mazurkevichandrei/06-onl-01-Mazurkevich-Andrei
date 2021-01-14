@@ -1,7 +1,95 @@
 .contact-box{
     padding: 65px 0;
+    padding-bottom: 55px;
 }
 
+.contact-form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 auto; */
+    margin: 0 -20px;
+    margin-top: 60px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 68px;
+    /* margin: 0 -60px; */
+}
+.form_customer,
+.form_message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 20px;
+}
+.contact-form-box_label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+#contact-name,
+#contact-email,
+#contact-password,
+#contact-message{
+    border: 0;
+    border-bottom: 2px solid #BDBDBD;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+    padding: 3px 5px;
+    transition: all linear .3s;
+
+    resize: none;
+}
+#contact-name:focus,
+#contact-email:focus,
+#contact-password:focus,
+#contact-message:focus{
+    outline: none;
+    background-color: #f7f9fa;
+    color: #000000;
+    padding-left: 7px;
+}
+
+/* FORM_BUTTON */
+#contact-submit{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    outline: none;
+    border: 0;
+    background-color: #EC7979;
+    color: #ffffff;
+    padding: 11px 32px;
+    transition: all linear .3s;
+}
+#contact-submit:hover{
+    background-color: rgba(236, 121, 121,0.3);
+    color: #f54c4c;
+}
+#contact-submit:focus{
+    outline: none;
+    background-color: rgba(236, 121, 121,0.8);
+}
 /* LINK */
 
 .contact-link{
@@ -21,8 +109,8 @@
     }
 /* FONTS */
 .contact-title{
-    
+
 }
 .contact-subtitle{
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }

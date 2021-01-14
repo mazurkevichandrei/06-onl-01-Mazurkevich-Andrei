@@ -268,7 +268,26 @@
                 <h2 class="contact-title">CONTACT US</h2>
                 <!-- <div class="awesome-line"></div> -->
                 <h4 class="contact-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <a href="#" class="contact-link">Send Message</a>
+                <!-- <a href="#" class="contact-link">Send Message</a> -->
+                <div class="contact-form-box">
+                    <form name="contact" id="contact" action="#">
+                        <div class="form_customer">
+                        <label class="contact-form-box_label" for="contact-name">Name</label>
+                        <input type="text" name="contact-name" id="contact-name" required maxlength="15">
+                        <label class="contact-form-box_label"  for="contact-email">Email</label>
+                        <input type="email" name="contact-email"  id="contact-email" required>
+                        <label class="contact-form-box_label"  for="contact-password">Password (6 characters)</label>
+                        <input type="password" name="contact-password"  id="contact-password"  required minlength="6" maxlength="6">
+                        </div>
+                    <!-- </form>
+                    <form name="contact1" id="contact" action="#"> -->
+                        <div class="form_message">
+                        <label class="contact-form-box_label"  for="contact-message">Message</label>
+                        <textarea name="contact-message"  id="contact-message"  required rows="10"></textarea>
+                        </div>
+                    </form>
+                    <input type="submit" name="contact-submit" id="contact-submit" form="contact" value="Send Message">
+                </div>
             </div>
         </div>
     </section>

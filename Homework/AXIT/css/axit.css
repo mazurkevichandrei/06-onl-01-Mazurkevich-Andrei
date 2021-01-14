@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
+    /* align-items: stretch; */
 
     max-width: 370px;
     border-radius: 8px;
@@ -64,7 +64,6 @@
     line-height: 19px;
     color: #BDBDBD;
     padding: 19px 0;
-    /* margin: 0 59px; */
     transition: all linear .3s;
 }
 #axit-name:focus,
@@ -75,6 +74,7 @@
     color: #000000;
     padding-left: 5px;
 }
+    /* FORM_BUTTON */
 #axit-submit{
     font-family: 'Open Sans';
     font-style: normal;
@@ -97,6 +97,8 @@
     outline: none;
     background-color: rgba(236, 121, 121,0.8);
 }
+    /* FORM_BUTTON_END */
+/* FORM_END */
 
 /* LINK */
 .axit-button{
@@ -164,6 +166,7 @@ p.axit-text{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 55px;
 }
+    /* FORM_FONT */
 .axit-form-box__title{
     color: #000000;
     margin: 15px;
