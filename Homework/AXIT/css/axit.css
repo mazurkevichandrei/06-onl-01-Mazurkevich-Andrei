@@ -33,17 +33,69 @@
     padding-bottom: 45px;  
 }
 /* FORM */
-.axit-form{
+.axit-form-box{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
 
-    width: 370px;
-    height: 370px;
+    max-width: 370px;
     border-radius: 8px;
     background-color: #ffffff;
     margin: 0 45px;
+}
+
+.axit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 59px;
+}
+
+#axit-name,
+#axit-email,
+#axit-password{
+    border: 0;
+    border-bottom: 2px solid #BDBDBD;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+    padding: 19px 0;
+    /* margin: 0 59px; */
+    transition: all linear .3s;
+}
+#axit-name:focus,
+#axit-email:focus,
+#axit-password:focus{
+    outline: none;
+    background-color: #f7f9fa;
+    color: #000000;
+    padding-left: 5px;
+}
+#axit-submit{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #EC7979;
+    border: 0;
+    border-radius: 0 0 8px 8px;
+    padding: 20px 0;
+    margin-top: 60px;
+    transition: all linear 0.3s;
+}
+#axit-submit:hover{
+    background-color: rgba(236, 121, 121,0.3);
+    color: #f54c4c;
+}
+#axit-submit:focus{
+    outline: none;
+    background-color: rgba(236, 121, 121,0.8);
 }
 
 /* LINK */
@@ -61,7 +113,7 @@
     background-color: #ffffff;
     color: black;   
 }
-.axit-form__link{
+/* .axit-form__link{
     text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
@@ -73,11 +125,11 @@
     border-radius: 0 0 8px 8px;
     padding: 20px 0;
     transition: all linear 0.3s;
-}
-.axit-form__link:hover{
+} */
+/* .axit-form__link:hover{
     background-color: rgba(236, 121, 121,0.3);
     color: #f54c4c;
-}
+} */
 /* FONTS */
 .axit-title{
     font-family: 'Raleway';
@@ -112,10 +164,11 @@ p.axit-text{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 55px;
 }
-.axit-form__title{
+.axit-form-box__title{
     color: #000000;
     margin: 15px;
+    margin-bottom: 30px;
 }
-.axit-form__title-marked{
+.axit-form-box__title-marked{
     color: #EC7979;
 }

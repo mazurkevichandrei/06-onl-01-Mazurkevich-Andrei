@@ -41,14 +41,27 @@
                     </p>
                     <a href="#" class="axit-button">Download</a>
                 </div>
-                <div class="axit-form">
-                    <h3 class="axit-form__title">
-                    Try Your <span><span class="axit-form__title-marked">FREE</span></span> Trial Today
+                <div class="axit-form-box">
+                    <h3 class="axit-form-box__title">
+                    Try Your <span><span class="axit-form-box__title-marked">FREE</span></span> Trial Today
                     </h3>
+                    <div class="axit-form">
+                        <form name="axit" id="axit" action="#">
 
-                    <a href="#" class="axit-form__link">
+                            <input type="text" name="axit-name" id="axit-name" placeholder="Name" required maxlength="15">
+
+                            <input type="email" name="axit-email"  id="axit-email" placeholder="Email" required>
+
+                            <input type="password" name="axit-password"  id="axit-password" placeholder="Password (8 characters)" required minlength="8" maxlength="8">
+
+                            <!-- <input type="submit" name="axit-submit" id="axit-submit" value="Get Started"> -->
+                        </form>
+                        
+                    </div>
+                    <input type="submit" name="axit-submit" id="axit-submit" form="axit" value="Get Started">
+                    <!-- <a href="#" class="axit-form__link">
                     Get Started
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
