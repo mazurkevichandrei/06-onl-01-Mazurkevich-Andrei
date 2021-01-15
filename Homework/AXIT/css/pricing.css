@@ -10,13 +10,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0 -30px;
+    /* margin: 0 -30px; */
     margin-top: 60px;
 }
 /* CARDS */
 .pricing-card{
     width: 340px;
-    margin: 20px 30px;
+    margin: 20px 20px;
 }
 .pricing-card__item{
     padding-top: 10px;
