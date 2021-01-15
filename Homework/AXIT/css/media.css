@@ -14,10 +14,14 @@
 }
 /* BOX_FOR_ICONS */
 .media-box{
+    
+    margin: 0 15px;
+}
+.media-box-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 15px;
+    list-style-type: none;
 }
 /* ICONS-LINK */
 .fab{
