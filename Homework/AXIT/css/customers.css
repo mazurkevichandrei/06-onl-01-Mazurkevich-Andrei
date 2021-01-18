@@ -10,6 +10,8 @@
     margin-top: 35px;
 }
 .feedback-box__item {
+    display: flex;
+    flex-direction: column;
     max-width: 300px;
     margin: 30px;
 }
@@ -37,6 +39,7 @@
 
 }
 .feedback-box__item-text{
+    flex-grow: 1;
     min-width: 300px;
     padding: 10px 25px;
     box-sizing: border-box;
