@@ -175,3 +175,42 @@ p.axit-text{
 .axit-form-box__title-marked{
     color: #EC7979;
 }
+
+
+@media screen and (max-width: 573px){
+    .axit-content{
+        text-align: center;
+    }
+    .axit-title{
+        display: none;
+    }
+    .axit-subtitle::after{
+        width: 90%;
+        margin: 5px auto;
+    }
+    p.axit-text{
+        max-width: 100%;
+        margin: 0;
+        margin: 15px 0;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .axitpage-box{
+        padding-top: 15px;
+    }
+    .axit-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 5px;
+        text-align: center;
+    }
+
+    .axit-button{
+        background-color: #ffffff;
+        color: #000000;
+        padding: 25px 0;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}

@@ -90,7 +90,7 @@
 .navi-mobile-item{
     width: 100%;
     text-align: start;
-    padding: 15px 0;
+    /* padding: 15px 0; */
 }
 .navi-mobile-link{
     text-decoration: none;
@@ -99,7 +99,7 @@
     font-weight: 600;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.7);
-    padding: 15px;
+    /* padding: 15px; */
 }
 #navi-checkbox:checked ~ .navi-mobile-box {
     color: #ffffff;
@@ -107,20 +107,32 @@
 }
 #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-item{
     background-color:#000000;
+    padding: 15px 0;
 }
 #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-item .navi-mobile-link{
     font-size: 15px;
+    padding: 15px;
 }
 
 
 
 /* Adaptive */
-
+@media screen and (max-width: 730px){
+    .head__logo{
+        padding: 0;
+        padding-left: 25px;
+    }
+    .navi{
+        /* width: 100%; */
+        margin: 0;
+    }
+}
 @media screen and (max-width: 573px){
     .navi{
         display: none;
     }
     .head__logo{
+        /* margin: 0 auto; */
         padding: 0 10px;
     }
     .navi-mobile{
