@@ -59,17 +59,21 @@
 
 /* Mobile_Navi */
 .navi-mobile{
-    position: relative;
+    /* position: relative; */
     display: none;
+
 }
 #navi-checkbox{
     display: none;
 }
 .navi-label{
+    display: block;
+    align-self: flex-end;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute;
     top: 3px;
-    right: 15px;
+    right: 15px; */
+    margin-right: 10px;
 }
 .navi-lable_line{
     width: 35px;
@@ -81,38 +85,47 @@
 }
 .navi-mobile-box{
     display: block;
+    /* text-align: left; */
     position: relative;
-    top: 35px;
+    max-width: 250px;
+    top: 20px;
     right: -15px;
     list-style-type: none;
     height: 0;
+    font-size: 0;
+    transition: all 0.3s;
 }
-.navi-mobile-item{
+/* .navi-mobile-item{
     width: 100%;
     text-align: start;
-    /* padding: 15px 0; */
-}
+} */
 .navi-mobile-link{
+    display: block;
+    width: 100%;
     text-decoration: none;
     font-family: 'Open Sans';
-    font-size: 0px;
-    font-weight: 600;
-    line-height: 20px;
     color: rgba(255, 255, 255, 0.7);
-    /* padding: 15px; */
+    background-color: #000000;
+    transition: all 0.1s;
+    
 }
 #navi-checkbox:checked ~ .navi-mobile-box {
-    color: #ffffff;
-    max-height: 1500px;
+    max-height: 100%;
+    font-size: 15px;
 }
-#navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-item{
+#navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-link{
+    padding: 10px 0;
+}
+/* #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-item{
     background-color:#000000;
     padding: 15px 0;
-}
-#navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-item .navi-mobile-link{
+} */
+/* #navi-checkbox:checked ~ .navi-mobile-box 
+.navi-mobile-item 
+.navi-mobile-link{
     font-size: 15px;
-    padding: 15px;
-}
+    padding: 15px 70px;
+} */
 
 
 
@@ -136,6 +149,8 @@
         padding: 0 10px;
     }
     .navi-mobile{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 150px;
     }
 }
