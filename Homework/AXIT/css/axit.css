@@ -263,7 +263,7 @@ p.axit-text{
 
     .axit-form-box{
         max-width: 100%;
-        margin-bottom: 5px;
+        margin: 0;
     }
     .axit-form{
         padding: 0 45px;
