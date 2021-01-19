@@ -14,7 +14,6 @@
 }
 /* BOX_FOR_ICONS */
 .media-box{
-    
     margin: 0 15px;
 }
 .media-box-list{
@@ -57,4 +56,32 @@
     text-align: left;
     max-width: 360px;
     color: #86878B;
+}
+
+
+@media screen and (max-width: 1167px){
+    .socialmedia-box{
+        align-items: center;
+    }
+    .media-description{
+        max-width: 200px;
+        margin: 0px 25px;
+    }
+}
+@media screen and (max-width: 1167px){
+    .socialmedia-box{
+        flex-direction: column;
+    }
+    .media-description{
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .media-description__text{
+        max-width: 100%;
+    }
+    .media-box{
+        margin: 0 auto;
+    }
 }
