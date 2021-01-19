@@ -15,7 +15,8 @@
 }
 /* CARDS */
 .pricing-card{
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     margin: 20px 20px;
 }
 .pricing-card__item{
@@ -161,7 +162,7 @@
 
 
 
-@media screen and (max-width: 787px){
+@media screen and (max-width: 810px){
     .pricing-box{
         padding: 20px 0;
     }
@@ -179,5 +180,8 @@
         flex-direction: column;
         justify-content: space-between;
 
+    }
+    .pricing-card{
+        max-width: 450px;
     }
 }
