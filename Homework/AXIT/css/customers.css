@@ -77,3 +77,16 @@
     line-height: 19px;
     color: #86878B;
 }
+
+
+@media screen and (max-width: 787px){
+    .customers-box{
+        padding: 20px 0;
+    }
+    .feedback-title{
+        font-size: 25px;
+    }
+    .feedback-box{
+        margin-top: 15px;
+    }
+}

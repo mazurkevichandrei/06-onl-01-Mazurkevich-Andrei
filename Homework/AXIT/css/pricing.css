@@ -68,6 +68,56 @@
     font-size: 37px;
 }
 
+/* Mobile */
+#price-mobile-check,
+#price-mobile-check_second,
+#price-mobile-check_third{
+    display: none;
+}
+.price-mobile__lable{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.price-mobile{
+    display: none;
+    /* width: 100%; */
+    list-style-type: none;
+    background-color: #ffffff;
+    color: black;
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.price-mobile__item{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    background-color: #ffffff;
+    font-family:'Open Sans';
+    font-size: 0;
+    color: #86878B;
+    transition: all 0.3s;
+}
+.price-mobile__item:nth-child(1){
+    background-color: #818181;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#price-mobile-check:checked ~.price-mobile__box .price-mobile__item,
+#price-mobile-check_second:checked ~.price-mobile__box .price-mobile__item,
+#price-mobile-check_third:checked ~.price-mobile__box .price-mobile__item{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    margin-bottom: 4px;
+}
+
+
 
 @media screen and (max-width: 787px){
     .pricing-box{
@@ -78,5 +128,14 @@
     }
     .pricing-card__box{
         margin-top: 15px;
+    }
+    .pricing-card__item:nth-child(n+3){
+        display: none;
+    }
+    .price-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
     }
 }

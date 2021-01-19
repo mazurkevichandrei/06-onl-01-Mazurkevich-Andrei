@@ -54,3 +54,36 @@
     padding-bottom: 58px;
 }
 
+@media screen and (max-width: 857px){
+    .axure::after{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .axure-subtitle{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .axure-button{
+        padding: 20px 187px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 573px){
+    .axure::after{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .axure-box{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+    }
+
+    .axure-button{
+        width: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 25px 0;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
