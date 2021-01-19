@@ -67,3 +67,16 @@
 .price-currency{
     font-size: 37px;
 }
+
+
+@media screen and (max-width: 787px){
+    .pricing-box{
+        padding: 20px 0;
+    }
+    .pricing-title{
+        font-size: 25px;
+    }
+    .pricing-card__box{
+        margin-top: 15px;
+    }
+}

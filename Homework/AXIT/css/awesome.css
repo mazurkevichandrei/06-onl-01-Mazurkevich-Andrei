@@ -48,3 +48,24 @@
     font-family: 'Open Sans';
     text-align: center;
 }
+
+@media screen and (max-width: 787px){
+    .awesome-box{
+        padding: 20px 0;
+    }
+    .awesome-title{
+        font-size: 25px;
+    }
+    .awesome-card{
+        margin-top: 15px;
+    }
+    .awesome-card__item{
+        margin-bottom: 25px;
+    }
+    .awesome-card__item-icon{
+        margin-bottom: 10px;
+    }
+    .awesome-card__item-info{
+        text-align: justify;
+    }
+}
