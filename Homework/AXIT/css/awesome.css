@@ -66,6 +66,7 @@
         margin-bottom: 10px;
     }
     .awesome-card__item-info{
+        text-indent: 15px;
         text-align: justify;
     }
 }

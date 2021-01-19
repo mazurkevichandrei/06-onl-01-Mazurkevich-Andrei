@@ -51,6 +51,8 @@
     font-style: normal;
     font-weight: normal;
     position: relative;
+    text-indent: 15px;
+    text-align: justify;
 }
 .feedback-box__item-text::after{
     content: "";
