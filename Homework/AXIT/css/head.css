@@ -86,7 +86,7 @@
 }
 .navi-lable_line:nth-child(1){
     position: relative;
-    top: -2px;
+    top: -5px;
     transition: all 0s;
 }
 .navi-lable_line:nth-child(2){
@@ -99,7 +99,7 @@
 }
 .navi-lable_line:nth-child(4){
     position: relative;
-    top: 4px;
+    top: 7px;
     transition: all 0s;
 }
 .navi-mobile-box{
