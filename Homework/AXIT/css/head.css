@@ -115,6 +115,14 @@
     font-size: 0;
     transition: all 0.3s;
 }
+.navi-mobile-box::before{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all linear 0.3s;
+}
 /* .navi-mobile-item{
     width: 100%;
     text-align: start;
@@ -141,7 +149,10 @@
 #navi-checkbox:checked ~ .navi-mobile-box {
     max-height: 100%;
     font-size: 25px;
-    border-top: 2px solid #e2dfdf;
+    /* border-top: 2px solid #e2dfdf; */
+}
+#navi-checkbox:checked ~ .navi-mobile-box::before {
+    width: 100%;
 }
 #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-link{
     padding: 15px 0;
