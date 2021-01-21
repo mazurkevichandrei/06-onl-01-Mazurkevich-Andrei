@@ -270,7 +270,10 @@ p.axit-text{
     }
 }
 @media screen and (max-width: 573px){
-
+    .axitpage-box{
+        padding-top: 28px;
+        padding-bottom: 15px;
+    }
 
     .axitpage:after{
         background: rgba(0, 0, 0, 0.7);
