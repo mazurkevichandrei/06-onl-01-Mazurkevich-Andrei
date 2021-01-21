@@ -60,7 +60,8 @@
 
 /* Mobile_Navi */
 .navi-mobile{
-    /* position: relative; */
+    position: relative;
+    top: -20px;
     display: none;
 
 }
@@ -74,7 +75,7 @@
     /* position: absolute;
     top: 3px;
     right: 15px; */
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .navi-lable_line{
     width: 35px;
@@ -83,6 +84,7 @@
     border: 0;
     box-sizing: border-box;
     transition: all 0.3s;
+    align-self: center;
 }
 .navi-lable_line:nth-child(1){
     position: relative;
@@ -105,10 +107,9 @@
 .navi-mobile-box{
     display: block;
     /* text-align: left; */
-    position: relative;
-    max-width: 250px;
-    top: 20px;
-    right: -15px;
+    position: absolute;
+    width: 100%;
+    top: 42px;
     list-style-type: none;
     height: 0;
     font-size: 0;
@@ -139,7 +140,7 @@
 }
 #navi-checkbox:checked ~ .navi-mobile-box {
     max-height: 100%;
-    font-size: 15px;
+    font-size: 20px;
 }
 #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-link{
     padding: 10px 0;
@@ -158,17 +159,22 @@
     }
 }
 @media screen and (max-width: 640px){
+    .header-box{
+        flex-direction: column;
+    }
     .navi{
         display: none;
     }
     .head__logo{
+        align-self: flex-start;
         /* margin: 0 auto; */
-        padding: 0 10px;
+        padding: 0 25px;
     }
     .navi-mobile{
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 /* @media screen and (max-width: 573px){
