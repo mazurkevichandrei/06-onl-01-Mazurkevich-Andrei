@@ -12,6 +12,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
+.body,
+.html{
+    height: 100%;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -35,16 +39,12 @@
 
     /* border: 2px solid black; */
 }
-.wrapper{
+
+/* .fullscreen{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-.fullscreen{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+} */
 /* FONTS */
 h2 {
     font-size: 36px;
