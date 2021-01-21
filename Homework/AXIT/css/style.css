@@ -35,7 +35,16 @@
 
     /* border: 2px solid black; */
 }
-
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.fullscreen{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 /* FONTS */
 h2 {
     font-size: 36px;
