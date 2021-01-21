@@ -140,14 +140,25 @@
 }
 #navi-checkbox:checked ~ .navi-mobile-box {
     max-height: 100%;
-    font-size: 20px;
+    font-size: 25px;
+    border-top: 2px solid #e2dfdf;
 }
 #navi-checkbox:checked ~ .navi-mobile-box .navi-mobile-link{
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 
 /* Adaptive */
+@media screen and (max-width: 1167px){
+    .head__logo{
+        padding: 0;
+        padding-left: 25px;
+    }
+    .navi{
+        margin: 0;
+        margin-right: 10px;
+    }
+}
 @media screen and (max-width: 745px){
     .head__logo{
         padding: 0;

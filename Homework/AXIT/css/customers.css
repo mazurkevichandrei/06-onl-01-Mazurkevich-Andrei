@@ -52,7 +52,7 @@
     font-weight: normal;
     position: relative;
     text-indent: 15px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .feedback-box__item-text::after{
     content: "";
@@ -83,11 +83,11 @@
 
 @media screen and (max-width: 787px){
     .customers-box{
-        padding: 20px 0;
+        padding: 40px 0;
     }
-    .feedback-title{
+    /* .feedback-title{
         font-size: 25px;
-    }
+    } */
     .feedback-box{
         margin-top: 15px;
     }
