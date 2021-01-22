@@ -37,7 +37,7 @@
 }
 .masterhead-content__box{
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 60px 0;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -97,17 +97,26 @@
 
 
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 790px){
+    .logo{
+        margin-left: 15px;
+    }
     .navigation__link{
         margin: 0 15px;
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 755px){
+    .logo{
+        margin-left: 10px;
+    }
     .navigation__link{
         margin: 0 10px;
     }
 }
-@media screen and (max-width: 690px){
+@media screen and (max-width: 700px){
+    .logo{
+        margin: 0;
+    }
     .header{
         flex-direction: column;
         align-items: center;
