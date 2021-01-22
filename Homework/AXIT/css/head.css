@@ -135,8 +135,23 @@
     color: rgba(255, 255, 255, 0.7);
     background-color: #000000;
     transition: all 0.1s;
-    
 }
+.navi-mobile-link:nth-child(1){
+    transition-delay: 0.000s;
+}
+.navi-mobile-link:nth-child(2){
+    transition-delay: 0.005s;
+}
+.navi-mobile-link:nth-child(3){
+    transition-delay: 0.006s;
+}
+.navi-mobile-link:nth-child(4){
+    transition-delay: 0.007s;
+}
+.navi-mobile-link:nth-child(5){
+    transition-delay: 0.008s;
+}
+
 #navi-checkbox:checked ~ .navi-label .navi-lable_line:nth-child(3n+1){
     visibility: hidden;
 }
