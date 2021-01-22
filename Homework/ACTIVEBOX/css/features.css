@@ -1,0 +1,30 @@
+.features{
+
+}
+.features__box{
+    padding: 90px 0;
+}
+.features__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features__cards-item{
+    max-width: 296px;
+    margin: 30px;
+}
+.card__image{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+/* FONTS 
+*/
+.card__title{
+    margin-bottom: 25px;
+}
+.card__text{
+    font-size: 14px;
+}
