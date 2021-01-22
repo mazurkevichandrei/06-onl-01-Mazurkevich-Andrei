@@ -19,7 +19,7 @@
 .works__item-info{
     position: relative;
     z-index: 1;
-    padding: 145px 0;
+    padding: 100px 0;
     text-align: center;
 }
 .works__item::after{
@@ -82,7 +82,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1115px){
+@media screen and (max-width: 1190px){
     .works__item{
         width: 50%;
     }
