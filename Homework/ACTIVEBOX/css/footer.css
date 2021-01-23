@@ -78,31 +78,26 @@
 }
 
 /* For_Menu */
-
+i {
+    font-family: fontawesome !important;
+    }
 #footer__check_1,
 #footer__check_2,
 #footer__check_3{
     display: none;
 }
 .footer__lable{
-    width: 35px;
-    height: 35px;
-    border: 2px solid #ffffff;
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #ffffff; */
     border-radius: 50%;
+    background-color: #ffffff;
     display: none;
 }
-.lable__line{
-    width: 20px;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-    transition: all linear 0.2s;
-}
-.lable__line:nth-child(2){
+.fa-plus-circle{
+    font-size: 38px;
+    color: #15c24f;
     position: relative;
-    top: -2px;
-    left: 0px;
-    transform: rotate(90deg);
     transition: all linear 0.2s;
 }
 .item_info_box{
@@ -114,16 +109,13 @@
     display: block;
 }
 
-#footer__check_1:checked ~.footer__lable .lable__line,
-#footer__check_2:checked ~.footer__lable .lable__line,
-#footer__check_3:checked ~.footer__lable .lable__line{
-    transform: rotate(135deg);
+#footer__check_1:checked ~.footer__lable .fa-plus-circle,
+#footer__check_2:checked ~.footer__lable .fa-plus-circle,
+#footer__check_3:checked ~.footer__lable .fa-plus-circle{
+    /* transform: scaleY(-1); */
+    transform: rotate(45deg);
 }
-#footer__check_1:checked ~.footer__lable .lable__line:nth-child(2),
-#footer__check_2:checked ~.footer__lable .lable__line:nth-child(2),
-#footer__check_3:checked ~.footer__lable .lable__line:nth-child(2){
-    transform: rotate(225deg);
-}
+
 /* Adaptive */
 @media screen and (max-width: 900px){
     .footer__info {
@@ -170,12 +162,11 @@
     }
     .footer__lable{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         position: absolute;
-        top:5px;
-        right: 5px;
+        top:9px;
+        right: 8px;
     }
     .item_info_box{
         margin: 0 10px;
