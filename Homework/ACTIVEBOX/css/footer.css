@@ -114,11 +114,11 @@ i {
 #footer__check_2:checked ~.footer__lable .fa-plus-circle,
 #footer__check_3:checked ~.footer__lable .fa-plus-circle{
     /* transform: scaleY(-1); */
-    transform: rotate(45deg);
+    transform: rotate(135deg);
 }
 
 /* Adaptive */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .footer__info {
         display: flex;
         flex-direction: column;
@@ -155,7 +155,7 @@ i {
         color: #ffffff;
     }
     .footer__info-item{
-        max-width: 500px;
+        max-width: 600px;
         position: relative;
         border: 2px solid #ffffff;
         box-sizing: border-box;
